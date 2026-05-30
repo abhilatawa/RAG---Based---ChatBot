@@ -1,0 +1,85 @@
+FinSolve Technologies — Employee Handbook & Company Policies 2024
+Department: General | Access: All Employees
+
+ABOUT FINSOLVE TECHNOLOGIES
+FinSolve Technologies is an AI-powered financial intelligence platform helping
+organizations make smarter, faster financial decisions. Founded in 2019,
+headquartered in San Francisco with offices in New York and London.
+
+Mission: "Intelligence for every financial decision"
+Vision: To become the operating system for enterprise finance teams worldwide.
+
+COMPANY HOLIDAYS 2024
+- January 1:    New Year's Day
+- January 15:   Martin Luther King Jr. Day
+- February 19:  Presidents' Day
+- May 27:       Memorial Day
+- June 19:      Juneteenth
+- July 4:       Independence Day
+- September 2:  Labor Day
+- November 28:  Thanksgiving Day
+- November 29:  Day after Thanksgiving
+- December 25:  Christmas Day
+Total: 10 company holidays
+
+HOW TO SUBMIT AN EXPENSE
+1. Log in to Expensify (expenses.finsolve.com)
+2. Click "New Expense" and upload receipt
+3. Fill in: amount, date, category, project code
+4. Add description (required for expenses over $50)
+5. Submit to your direct manager for approval
+6. Finance processes reimbursements every Friday
+
+Expense Limits (no pre-approval needed):
+- Meals (individual):    Up to $30
+- Meals (client/team):  Up to $75/person
+- Travel (domestic):    Economy class only
+- Hotel:                Up to $250/night
+- Software/tools:       Up to $100/month (check with IT first)
+
+Expenses above limits require manager + Finance pre-approval.
+
+CODE OF CONDUCT
+- Treat all colleagues with respect and dignity
+- Zero tolerance for discrimination or harassment
+- Protect confidential company and customer information
+- Report concerns to HR (hr@finsolve.com) or anonymously via ethics hotline
+- Conflicts of interest must be disclosed to your manager and HR
+
+IT & SECURITY POLICIES
+- Use company-issued devices for all work
+- Enable full-disk encryption on all devices
+- Use the company VPN when working remotely
+- Never share passwords or access credentials
+- Report any suspicious activity to security@finsolve.com immediately
+- Mandatory security training: complete within 30 days of joining
+
+COMMUNICATION TOOLS
+- Slack:      Primary internal communication
+- Email:      External and formal internal communication
+- Zoom:       Video meetings (licenses provided to all employees)
+- Notion:     Documentation and wikis
+- Jira:       Engineering project tracking
+- HubSpot:    CRM (Sales & Marketing)
+
+WHERE TO FIND THINGS
+- Employee handbook:       notion.finsolve.com/handbook
+- IT help desk:            it@finsolve.com | Slack: #it-help
+- HR queries:              hr@finsolve.com | Slack: #people-ops
+- Finance/expenses:        finance@finsolve.com
+- Security incidents:      security@finsolve.com
+- Anonymous ethics report: ethics.finsolve.com
+
+OFFICE INFORMATION
+San Francisco HQ:
+  101 Market Street, Suite 1200, San Francisco, CA 94105
+  Hours: Monday–Friday, 8am–7pm
+  Parking: validated at 55 2nd Street garage
+
+New York:
+  One World Trade Center, Suite 4500, New York, NY 10007
+
+London:
+  8 Bishopsgate, London EC2N 4BQ, United Kingdom
+
+Prepared by: People & Culture | Updated: January 2024

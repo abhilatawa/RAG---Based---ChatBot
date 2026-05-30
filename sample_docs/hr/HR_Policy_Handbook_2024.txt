@@ -1,0 +1,82 @@
+FinSolve Technologies — HR Policy Handbook 2024
+Department: HR | Access: HR, C-Level
+
+LEAVE POLICY
+
+Annual Leave
+- All full-time employees receive 25 days paid annual leave per year
+- Leave accrues at 2.08 days per month
+- Up to 5 days can be carried over to the next calendar year
+- Leave requests must be submitted at least 2 weeks in advance via HRPortal
+
+Sick Leave
+- 10 days paid sick leave per year
+- Medical certificate required for absences exceeding 3 consecutive days
+- Sick leave does not carry over year to year
+
+Parental Leave
+- Primary caregiver: 16 weeks fully paid
+- Secondary caregiver: 4 weeks fully paid
+- Adoption: same as parental leave
+- Flexible return-to-work options available
+
+Remote Work Policy
+- Employees may work remotely up to 3 days per week
+- Core hours: 10am–3pm in local timezone
+- All remote work must be from a secure, private location
+- Home office stipend: $500 one-time setup, $50/month ongoing
+
+PERFORMANCE REVIEW CYCLE
+- Mid-year review: July (informal, manager feedback)
+- Annual review: December (formal, compensation decisions)
+- Probation review: 90 days after start date
+- Promotion cycle: Aligned to annual review
+
+COMPENSATION & BENEFITS
+- Salary bands reviewed annually in January
+- Performance bonus: up to 15% of base salary
+- Equity (options): granted at hire, 4-year vest, 1-year cliff
+- Health insurance: 100% premium covered (employee), 80% (dependents)
+- Dental & Vision: 100% covered
+- 401k: 4% company match, immediate vesting
+- Learning budget: $2,000 per year per employee
+- Wellness budget: $500 per year
+
+HEADCOUNT (as of Q3 2024)
+- Engineering:       58 employees
+- Sales & Marketing: 31 employees
+- Finance:           12 employees
+- HR & Operations:   9 employees
+- Customer Success:  18 employees
+- Executive/Admin:   14 employees
+Total:               142 employees
+
+OPEN POSITIONS (Q4 2024)
+- Senior Backend Engineer (x3)
+- Product Manager (x1)
+- Account Executive (x2)
+- Data Analyst (x1)
+- DevOps Engineer (x1)
+Total open roles: 8
+
+ONBOARDING CHECKLIST
+Week 1:
+  - IT setup: laptop, accounts, access provisioned
+  - HR orientation: policies, benefits enrollment
+  - Meet your team and manager
+  - Complete mandatory compliance training
+
+Week 2-4:
+  - Role-specific onboarding with buddy
+  - Shadow customer calls (for customer-facing roles)
+  - Complete product training modules
+  - 30-day check-in with manager
+
+DISCIPLINARY POLICY
+- Verbal warning → Written warning → Performance Improvement Plan → Termination
+- Gross misconduct may result in immediate termination
+- All disciplinary actions documented in employee file
+
+CONFIDENTIALITY
+This document contains sensitive HR information. Unauthorized distribution is prohibited.
+Prepared by: People & Culture Team | Updated: September 2024

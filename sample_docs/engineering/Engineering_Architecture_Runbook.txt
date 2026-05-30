@@ -1,0 +1,78 @@
+FinSolve Technologies — Engineering Architecture & Runbook 2024
+Department: Engineering | Access: Engineering, C-Level
+
+SYSTEM ARCHITECTURE OVERVIEW
+
+FinSolve Platform is a cloud-native SaaS application built on AWS.
+
+Core Services:
+- API Gateway:        FastAPI (Python 3.11), deployed on ECS Fargate
+- Frontend:           React 18 + TypeScript, hosted on CloudFront/S3
+- Database:           PostgreSQL 15 (RDS Multi-AZ) + Redis 7 (ElastiCache)
+- ML Pipeline:        Python, Celery workers on ECS
+- Vector Store:       Qdrant (self-hosted on EC2)
+- Message Queue:      AWS SQS
+- Object Storage:     AWS S3
+- Monitoring:         Datadog APM + Prometheus + Grafana
+- CI/CD:              GitHub Actions → ECR → ECS
+
+API RATE LIMITS
+- Free tier:          100 requests/hour
+- Starter plan:       1,000 requests/hour
+- Growth plan:        10,000 requests/hour
+- Enterprise:         Unlimited (subject to fair use)
+- Internal services:  No rate limit (VPC only)
+
+CURRENT SPRINT (Sprint 47 — Q4 2024)
+Active tickets:
+- FINS-1204: Implement RAG chatbot RBAC layer (In Progress — carol.eng)
+- FINS-1198: Migrate legacy auth to JWT RS256 (In Review)
+- FINS-1201: Qdrant collection sharding setup (Todo)
+- FINS-1189: Redis session store integration (Done)
+- FINS-1210: API response caching layer (In Progress)
+- FINS-1215: SOC2 audit logging implementation (In Progress)
+Sprint velocity: 42 points | Sprint goal: 48 points
+
+INCIDENT RUNBOOK
+
+P1 — Critical (response: 15 min)
+1. Page on-call via PagerDuty
+2. Create incident channel: #incident-YYYY-MM-DD
+3. Assign Incident Commander (IC)
+4. Diagnose: check Datadog dashboard → ECS health → RDS connections
+5. Escalate to CTO if not resolved in 30 min
+6. Post-mortem required within 48 hours
+
+P2 — High (response: 1 hour)
+1. Notify #engineering-alerts Slack channel
+2. Assign owner from on-call rotation
+3. Update status page
+
+Common Fixes:
+- High DB connections: restart ECS service, check connection pool settings
+- Memory spike: scale ECS task count, check for memory leaks in /metrics
+- Auth failures: verify JWT_PUBLIC_KEY env var, check Redis connectivity
+- Slow API: check Datadog APM traces, look for N+1 queries
+
+DEPLOYMENT PROCESS
+1. Feature branch → PR → code review (min 1 approval)
+2. GitHub Actions: lint → test → build Docker image → push to ECR
+3. Staging deploy: automatic on merge to `develop`
+4. Production deploy: manual trigger on `main` branch (requires IC sign-off)
+5. Rollback: `./scripts/rollback.sh <previous-image-tag>`
+
+INFRASTRUCTURE COSTS (Monthly)
+- ECS Fargate (API):     $1,200
+- RDS PostgreSQL:        $890
+- ElastiCache Redis:     $340
+- EC2 (Qdrant):          $420
+- CloudFront + S3:       $180
+- SQS + misc:            $95
+Total monthly AWS:       $3,125
+
+ENGINEERING TEAM CONTACTS
+On-call rotation: carol.eng → alex.devops → mike.backend → sarah.ml
+Escalation: CTO (eve.ceo) → VP Engineering
+Slack: #engineering, #incidents, #deployments
+
+Prepared by: Engineering Team | Updated: October 2024
